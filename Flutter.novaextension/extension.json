@@ -6,9 +6,8 @@
   "version": "1.0",
   "categories": ["commands", "tasks"],
   "license": "GPL-3.0",
-  "bugs": "https://github.com/kra-mo/flutter-nova/issues",
-  "homepage": "https://github.com/kra-mo/flutter-nova",
-  "repository": "https://github.com/kra-mo/flutter-nova",
+  "bugs": "https://github.com/kra-mo/nova-flutter/issues",
+  "repository": "https://github.com/kra-mo/nova-flutter",
   "funding": "http://github.com/sponsors/kra-mo",
 
   "main": "main.js",

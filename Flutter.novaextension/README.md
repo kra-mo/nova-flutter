@@ -1,6 +1,6 @@
 Provides support for running and automatically hot reloading/restarting your Flutter apps.
 
-![](https://raw.githubusercontent.com/kra-mo/flutter-nova/refs/heads/main/screenshot.png)
+![](https://raw.githubusercontent.com/kra-mo/nova-flutter/refs/heads/main/screenshot.png)
 
 ## Requirements
 
