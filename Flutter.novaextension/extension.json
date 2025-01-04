@@ -1,0 +1,62 @@
+{
+  "identifier": "page.kramo.Flutter",
+  "name": "Flutter",
+  "organization": "kramo",
+  "description": "Run and hot reload Dart Flutter apps on save.",
+  "version": "1.0",
+  "categories": ["commands", "tasks"],
+  "license": "GPL-3.0",
+  "bugs": "https://github.com/kra-mo/flutter-nova/issues",
+  "homepage": "https://github.com/kra-mo/flutter-nova",
+  "repository": "https://github.com/kra-mo/flutter-nova",
+  "funding": "http://github.com/sponsors/kra-mo",
+
+  "main": "main.js",
+  "activationEvents": ["onLanguage:dart", "onWorkspaceContains:*.dart"],
+  "entitlements": { "process": true, "filesystem": "readwrite" },
+
+  "commands": {
+    "extensions": [
+      {
+        "title": "Hot Reload",
+        "command": "hotReload",
+        "filters": {
+          "syntaxes": ["dart"],
+          "types": ["dart", "dev.dart.dart-script"]
+        }
+      },
+      {
+        "title": "Hot Restart",
+        "command": "hotRestart",
+        "filters": {
+          "syntaxes": ["dart"],
+          "types": ["dart", "dev.dart.dart-script"]
+        }
+      }
+    ]
+  },
+
+  "config": [
+    {
+      "key": "flutter.hot-reload",
+      "title": "Hot Reload When Saving",
+      "type": "boolean",
+      "default": true
+    },
+    {
+      "key": "flutter.device",
+      "title": "Target Device",
+      "description": "Which device to launch the app on. You can get a list of devices by running `flutter devices` from the Terminal.",
+      "type": "string",
+      "default": "macos"
+    }
+  ],
+  "configWorkspace": [
+    {
+      "key": "flutter.device",
+      "title": "Target Device",
+      "description": "Which device to launch the app on. You can get a list of devices by running `flutter devices` from the Terminal.",
+      "type": "string"
+    }
+  ]
+}
