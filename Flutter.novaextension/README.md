@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> This repository has been archived in favor of [codeberg.org/kramo/nova-flutter](https://codeberg.org/kramo/nova-flutter).
+
 Provides support for running and automatically hot reloading/restarting your Flutter apps.
 
 ![](https://raw.githubusercontent.com/kra-mo/nova-flutter/refs/heads/main/screenshot.png)
